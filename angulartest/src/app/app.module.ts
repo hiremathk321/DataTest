@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CompComponent } from './comp/comp.component';
+import { SecComponent } from './sec/sec.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CompComponent
+    CompComponent,
+    SecComponent
   
   ],
   imports: [
